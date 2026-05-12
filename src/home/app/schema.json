@@ -1,0 +1,58 @@
+{
+  "@id": "#webapplication",
+  "@type": "WebApplication",
+  "aggregateRating": {
+    "@id": "#aggregateRating",
+    "@type": "AggregateRating",
+    "ratingValue": "4",
+    "ratingCount": "1"
+  },
+  "applicationCategory": "Aplicativo educacional",
+  "applicationSuite": "Memoize",
+  "browserRequirements": ["Requer suporte a Javascript ativo"],
+  "copyrightHolder": { "@id": "#organization" },
+  "creator": { "@id": "#organization" },
+  "maintainer": { "@id": "#organization" },
+  "name": "Memoize",
+  "offers": {
+    "@id": "#aggregateoffer",
+    "@type": "AggregateOffer",
+    "highPrice": 0.0,
+    "lowPrice": 0.0,
+    "offerCount": "1",
+    "priceCurrency": "BRL",
+    "offers": [
+      {
+        "@id": "#offer",
+        "@type": "Offer",
+        "priceSpecification": {
+          "@id": "#unitpricespecification",
+          "@type": "UnitPriceSpecification",
+          "name": "Free",
+          "price": 0.0,
+          "priceCurrency": "BRL",
+          "referenceQuantity": {
+            "@id": "#quantitativevalue",
+            "@type": "QuantitativeValue",
+            "unitCode": "MON",
+            "value": "1"
+          },
+          "url": "https://memoize.cards"
+        }
+      }
+    ]
+  },
+  "operatingSystem": [
+    "Windows 11 ou superior",
+    "macOS 13.3.1 ou superior",
+    "Chrome OS 112 or leter",
+    "Ubuntu 23.04",
+    "Fedora 38 ou superior",
+    "Debian 12 ou superior"
+  ],
+  "permissions": "Pode funcionar apenas com uma conexão ativa com a internet",
+  "publisher": { "@id": "#organization" },
+  "releaseNotes": ["https://memoize.cards"],
+  "sameAs": ["https://www.linkedin.com/company/memoize"],
+  "url": "https://memoize.cards"
+}

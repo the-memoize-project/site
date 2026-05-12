@@ -1,0 +1,79 @@
+{
+  "@id": "#faqpage",
+  "@type": "FAQPage",
+  "isPartOf": { "@id": "#website" },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A repetição espaçada é uma técnica de estudo que envolve revisar o material de estudo em intervalos específicos ao longo do tempo. Funciona distribuindo revisões com base na curva do esquecimento, permitindo uma melhor retenção de informações a longo prazo"
+      },
+      "name": "O que é repetição espaçada e como funciona?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os benefícios da repetição espaçada incluem uma melhor retenção de informações, maior eficiência no estudo, retenção duradoura do conhecimento, economia de tempo e aplicação flexível a uma variedade de conteúdos e disciplinas"
+      },
+      "name": "Quais são os benefícios da repetição espaçada para o aprendizado?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A principal diferença entre a repetição espaçada e outros métodos de estudo é o foco na distribuição inteligente de revisões ao longo do tempo, com base na curva do esquecimento e na teoria do espaçamento"
+      },
+      "name": "Como a repetição espaçada difere de outros métodos de estudo?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os resultados ao usar a repetição espaçada podem variar de pessoa para pessoa, mas muitos usuários relatam uma melhoria significativa no aprendizado e na retenção de informações em um período relativamente curto de tempo"
+      },
+      "name": "Quanto tempo leva para ver resultados usando a repetição espaçada?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, a repetição espaçada pode ser aplicada a praticamente qualquer tipo de conteúdo, desde vocabulário até conceitos complexos em diversas áreas de estudo"
+      },
+      "name": "Posso usar a repetição espaçada para aprender qualquer tipo de conteúdo?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não há uma quantidade ideal de revisões espaçadas universalmente aplicável, pois isso pode variar dependendo do indivíduo, do tipo de conteúdo e de outros fatores. No entanto, a pesquisa sugere que revisões mais espaçadas podem levar a uma melhor retenção de informações"
+      },
+      "name": "Existe uma quantidade ideal de revisões espaçadas para maximizar o aprendizado?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Você pode começar a usar a repetição espaçada no seu estudo encontrando uma ferramenta ou aplicativo de repetição espaçada que se adapte às suas necessidades e começando a usá-lo regularmente para revisar o material de estudo"
+      },
+      "name": "Como posso começar a usar a repetição espaçada no meu estudo?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A repetição espaçada pode ser eficaz para todas as idades, desde crianças até adultos mais velhos, pois é baseada em princípios científicos sobre como a memória funciona"
+      },
+      "name": "A repetição espaçada é eficaz para todas as idades?"
+    },
+    {
+      "@type": "Question",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, a repetição espaçada é uma técnica eficaz para aprender idiomas, pois ajuda a reter vocabulário e gramática de forma mais eficaz"
+      },
+      "name": "A repetição espaçada pode ser usada para aprender idiomas?"
+    }
+  ]
+}

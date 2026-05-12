@@ -1,0 +1,15 @@
+import css from '@css'
+
+const style = css`
+  :not(:defined),
+  :not(:defined) * {
+    opacity: 0;
+  }
+
+  :defined {
+    opacity: 1;
+    transition: 0.1s opacity;
+  }
+`
+
+export default style

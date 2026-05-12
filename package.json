@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.12",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.11.0"
+  },
+  "name": "memoize-site",
+  "private": true,
+  "scripts": {
+    "check": "biome check --write .",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "prepare": "husky"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "@id": "#organization",
+  "@type": "Organization",
+  "email": "cleber.engineer@gmail.com",
+  "logo": "https://memoize.cards/memoize.svg",
+  "founder": {
+    "@id": "#person",
+    "@type": "Person",
+    "name": "Cleber de Moraes Goncalves",
+    "sameAs": "https://www.linkedin.com/in/demgoncalves",
+    "affiliation": {
+      "@id": "#organization"
+    },
+    "image": "https://memoize.cards/cleber-de-moraes-goncalves.jpeg"
+  },
+  "name": "Memoize",
+  "url": "https://memoize.cards"
+}

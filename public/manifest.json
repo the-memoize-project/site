@@ -1,0 +1,61 @@
+{
+  "name": "Memoize",
+  "short_name": "Memoize",
+  "description": "Com a ciência da repetição espaçada, você obtém uma retenção de conhecimento superior. Domine qualquer assunto 2 a 5 vezes mais rápido que os métodos tradicionais.",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "https://app.memoize.cards/?utm_source=pwa",
+  "scope": "https://app.memoize.cards/",
+  "id": "https://app.memoize.cards/",
+  "theme_color": "#fafafa",
+  "background_color": "#fafafa",
+  "icons": [
+    {
+      "src": "/memoize_512w.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/memoize_192w.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/memoize_180w.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/memoize_64w.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ],
+  "dir": "ltr",
+  "lang": "pt",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "https://app.memoize.cards/app/dashboard?utm_source=pwa",
+      "description": "Acesse seu painel e continue aprendendo de forma eficiente com repetição espaçada."
+    }
+  ],
+  "categories": ["education"],
+  "screenshots": [
+    {
+      "src": "/screenshot_wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot_mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

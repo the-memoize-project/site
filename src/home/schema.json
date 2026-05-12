@@ -1,0 +1,22 @@
+{
+  "@id": "#webpage",
+  "@type": "WebPage",
+  "about": {
+    "@id": "#organization"
+  },
+  "description": "Com a ciência da repetição espaçada, você obtém uma retenção de conhecimento superior. Domine qualquer assunto 2 a 5 vezes mais rápido que os métodos tradicionais",
+  "inLanguage": "pt-BR",
+  "isPartOf": {
+    "@id": "#website"
+  },
+  "mentions": {
+    "@id": "#webapplication"
+  },
+  "name": "Aprenda 5x mais Rápido! | Memoize",
+  "publisher": {
+    "@id": "#organization"
+  },
+  "relatedLink": ["https://memoize.cards"],
+  "significantLink": "https://memoize.cards",
+  "url": "https://memoize.cards"
+}

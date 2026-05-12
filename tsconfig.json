@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@h",
+    "paths": {
+      "@agent": ["./packages/agent"],
+      "@component": ["./packages/component"],
+      "@css": ["./packages/css"],
+      "@env": ["./packages/env"],
+      "@h": ["./packages/h"],
+      "@h/jsx-runtime": ["./packages/h/jsx-runtime.js"],
+      "@home": ["./src/home"],
+      "@master": ["./src/master"],
+      "@paint": ["./packages/paint"],
+      "@router": ["./packages/router"],
+      "@terms-of-use": ["./src/terms-of-use"],
+      "@privacy-policy": ["./src/privacy-policy"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@id": "#reviw",
+  "@type": "Review",
+  "author": {
+    "@id": "#person",
+    "@type": "Person",
+    "name": "Dijalma Santos Cavalcante de Carvalho"
+  },
+  "reviewBody": "Como uma pessoa com TDAH e uma memória extremamente falha, este aplicativo tem sido essencial na minha vida. Ele me permite estudar de maneira mais dinâmica e menos estressante. Além disso, transforma o aprendizado em algo muito mais bala, como se fosse um jogo, onde posso pedir a ajuda de alguém para me fazer perguntas e depois eu respondo, entre outras atividades possíveis. Estou muito grato por ter encontrado essa ferramenta",
+  "reviewRating": {
+    "@id": "#rating",
+    "@type": "Rating",
+    "bestRating": 5,
+    "ratingValue": 4
+  }
+}
