@@ -3,7 +3,6 @@ import css from '@css'
 const style = css`
   .header {
     align-items: center;
-    content-visibility: auto;
     display: flex;
     gap: var(--spacing_inset-xs);
     height: 70px;

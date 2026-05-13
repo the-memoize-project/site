@@ -3,7 +3,6 @@ import css from '@css'
 const style = css`
   .hero {
     align-items: center;
-    content-visibility: auto;
     display: flex;
     flex-direction: column;
     gap: var(--spacing_inset-xs);
