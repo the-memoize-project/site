@@ -13,10 +13,10 @@ function component() {
             <strong>E como parar</strong>
           </h1>
           <h2 className={style.solution__h2}>
-            Seu cérebro descarta o que ele acha pouco importante — não é falta
-            de esforço O método tradicional luta contra isso: você revisa tudo,
-            do zero, várias vezes O Memoize inverte a lógica e te mostra cada
-            card no momento exato em que sua memória precisa de reforço
+            Seu cérebro descarta o que considera pouco importante — não é falta
+            de esforço. O método tradicional briga contra isso: você relê tudo,
+            do zero, várias vezes. O Memoize inverte a lógica e devolve cada
+            card no momento exato em que sua memória precisa de reforço.
           </h2>
         </hgroup>
         <a

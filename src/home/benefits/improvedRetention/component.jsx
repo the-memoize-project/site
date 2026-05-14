@@ -6,9 +6,10 @@ function component() {
     <figure className={style.benefits__figure}>
       <Img />
       <figcaption className={style.benefits__figcaption}>
-        <strong className={style.benefits__strong}>Grava de verdade.</strong>
+        <strong className={style.benefits__strong}>Fica de verdade.</strong>
         <p className={style.benefits__p}>
-          Não é decoreba que evapora na semana seguinte É memória que dura
+          Não é decoreba que some na semana seguinte. É memória que dura o ano
+          inteiro.
         </p>
       </figcaption>
     </figure>

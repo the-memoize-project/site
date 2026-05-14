@@ -5,75 +5,75 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "O que é repetição espaçada?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A repetição espaçada é uma técnica de estudo que envolve revisar o material de estudo em intervalos específicos ao longo do tempo. Funciona distribuindo revisões com base na curva do esquecimento, permitindo uma melhor retenção de informações a longo prazo"
-      },
-      "name": "O que é repetição espaçada e como funciona?"
+        "text": "É uma técnica de estudo apoiada por mais de um século de pesquisa: você revisa cada informação no intervalo exato em que está prestes a esquecê-la. Cada acerto estica esse intervalo — de minutos para dias, de dias para meses, de meses para anos. Resultado: memória de longo prazo com uma fração do tempo do estudo tradicional."
+      }
     },
     {
       "@type": "Question",
+      "name": "Por que funciona melhor que outros métodos?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Os benefícios da repetição espaçada incluem uma melhor retenção de informações, maior eficiência no estudo, retenção duradoura do conhecimento, economia de tempo e aplicação flexível a uma variedade de conteúdos e disciplinas"
-      },
-      "name": "Quais são os benefícios da repetição espaçada para o aprendizado?"
+        "text": "Releitura e grifo dão sensação de aprendizado, mas pouca retenção real. A repetição espaçada inverte a lógica: você se testa ativamente e o app só te mostra o que está prestes a escapar. Menos passivo, mais eficiente — e mensurável no próprio app."
+      }
     },
     {
       "@type": "Question",
+      "name": "Em quanto tempo vejo resultado?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A principal diferença entre a repetição espaçada e outros métodos de estudo é o foco na distribuição inteligente de revisões ao longo do tempo, com base na curva do esquecimento e na teoria do espaçamento"
-      },
-      "name": "Como a repetição espaçada difere de outros métodos de estudo?"
+        "text": "Você sente diferença já na primeira semana — informações que sumiriam em dois dias começam a ficar. Em um mês, a curva de retenção aparece visível no app. Em três meses, é difícil voltar para o método antigo."
+      }
     },
     {
       "@type": "Question",
+      "name": "Serve pra qualquer tipo de conteúdo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Os resultados ao usar a repetição espaçada podem variar de pessoa para pessoa, mas muitos usuários relatam uma melhoria significativa no aprendizado e na retenção de informações em um período relativamente curto de tempo"
-      },
-      "name": "Quanto tempo leva para ver resultados usando a repetição espaçada?"
+        "text": "Qualquer coisa que envolva memorizar fatos, conceitos, vocabulário ou relações entre ideias. Idiomas, medicina, direito, programação, história, música — todos funcionam. Para habilidades motoras (tocar piano, dirigir), ela não substitui a prática, mas ajuda na parte teórica."
+      }
     },
     {
       "@type": "Question",
+      "name": "Quanto tempo por dia preciso estudar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim, a repetição espaçada pode ser aplicada a praticamente qualquer tipo de conteúdo, desde vocabulário até conceitos complexos em diversas áreas de estudo"
-      },
-      "name": "Posso usar a repetição espaçada para aprender qualquer tipo de conteúdo?"
+        "text": "10 a 15 minutos por dia bastam para a maioria das pessoas. O app distribui as revisões e cabe entre o café e o ônibus. Estudou mais num dia? Ótimo. Estudou menos? Os cards te esperam no dia seguinte."
+      }
     },
     {
       "@type": "Question",
+      "name": "Como começo do zero?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Não há uma quantidade ideal de revisões espaçadas universalmente aplicável, pois isso pode variar dependendo do indivíduo, do tipo de conteúdo e de outros fatores. No entanto, a pesquisa sugere que revisões mais espaçadas podem levar a uma melhor retenção de informações"
-      },
-      "name": "Existe uma quantidade ideal de revisões espaçadas para maximizar o aprendizado?"
+        "text": "Crie uma conta gratuita, monte seu primeiro deck (ou importe um pronto) e estude 10 a 15 minutos por dia. O app cuida do resto: te avisa quando revisar, ajusta os intervalos e mostra seu progresso. Sem curva de aprendizado."
+      }
     },
     {
       "@type": "Question",
+      "name": "Funciona em qualquer idade?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Você pode começar a usar a repetição espaçada no seu estudo encontrando uma ferramenta ou aplicativo de repetição espaçada que se adapte às suas necessidades e começando a usá-lo regularmente para revisar o material de estudo"
-      },
-      "name": "Como posso começar a usar a repetição espaçada no meu estudo?"
+        "text": "Sim. A curva do esquecimento existe em qualquer idade — então a solução também. Crianças, universitários, profissionais em meio de carreira e adultos acima dos 60 se beneficiam igualmente. Só muda o tipo de conteúdo."
+      }
     },
     {
       "@type": "Question",
+      "name": "É bom pra aprender idiomas?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A repetição espaçada pode ser eficaz para todas as idades, desde crianças até adultos mais velhos, pois é baseada em princípios científicos sobre como a memória funciona"
-      },
-      "name": "A repetição espaçada é eficaz para todas as idades?"
+        "text": "É um dos usos mais clássicos. Vocabulário, conjugações, expressões idiomáticas, gênero das palavras — tudo encaixa muito bem em cards. Combinado com prática de conversação, você acelera a fluência em meses, não anos."
+      }
     },
     {
       "@type": "Question",
+      "name": "É realmente grátis pra sempre?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim, a repetição espaçada é uma técnica eficaz para aprender idiomas, pois ajuda a reter vocabulário e gramática de forma mais eficaz"
-      },
-      "name": "A repetição espaçada pode ser usada para aprender idiomas?"
+        "text": "Sim. Sem assinatura, sem limite de cards, sem versão paga escondida. O Memoize é mantido enxuto e gratuito porque aprender não devia ter pedágio."
+      }
     }
   ]
 }

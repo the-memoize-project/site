@@ -8,11 +8,11 @@ function component() {
       <figcaption className={style.audience__figcaption}>
         <small className={style.audience__label}>Professores</small>
         <strong className={style.audience__strong}>
-          Seu conteúdo na cabeça deles
+          Veja seus alunos lembrando
         </strong>
         <p className={style.audience__p}>
-          Monte decks, compartilhe e veja a retenção subir. O que ensinou em
-          março, eles lembram em novembro
+          Crie decks, compartilhe e acompanhe a retenção. O que você ensinou em
+          março, eles ainda têm em novembro.
         </p>
       </figcaption>
     </figure>

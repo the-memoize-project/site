@@ -18,7 +18,7 @@ function component() {
           </h1>
           <h2 className={style.app__h2}>
             Funciona no navegador, no Android e no iOS. Sincroniza sozinho — sem
-            App Store, sem cobrança
+            App Store, sem cobrança.
           </h2>
         </hgroup>
         <aside className={style.app__aside}>
@@ -29,7 +29,7 @@ function component() {
               Toque em <i>"Adicionar à tela inicial"</i>
             </li>
             <li className={style.app__li}>
-              Pronto — o Memoize aparece como qualquer app
+              Pronto — o Memoize aparece como qualquer outro app
             </li>
           </ol>
         </aside>

@@ -8,11 +8,11 @@ function component() {
       <figcaption className={style.audience__figcaption}>
         <small className={style.audience__label}>Profissionais</small>
         <strong className={style.audience__strong}>
-          Certificações que duram
+          Lembre quando precisar brilhar
         </strong>
         <p className={style.audience__p}>
-          Aprenda hoje, lembre na reunião de daqui seis meses. Sem reler tudo na
-          véspera
+          Aprenda hoje e use daqui a seis meses, na reunião que importa. Sem
+          releitura de última hora, sem branco.
         </p>
       </figcaption>
     </figure>

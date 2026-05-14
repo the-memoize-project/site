@@ -8,7 +8,7 @@ function component() {
       <figcaption className={style.benefits__figcaption}>
         <strong className={style.benefits__strong}>No ônibus. Entre reuniões.</strong>
         <p className={style.benefits__p}>
-          Abre, responde, fecha Em qualquer dispositivo, a qualquer hora
+          Abra, responda, feche. Qualquer dispositivo, a qualquer hora.
         </p>
       </figcaption>
     </figure>

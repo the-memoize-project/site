@@ -13,10 +13,10 @@ function component() {
       </div>
       <hgroup className={style.audience__hgroup}>
         <h1 className={style.audience__h1}>
-          Comece hoje. Lembre o resto da vida
+          Comece hoje. Lembre o resto da vida.
         </h1>
         <h2 className={style.audience__h2}>
-          Sem assinatura. Sem limite. Sem pegadinha
+          Sem assinatura. Sem limite. Sem pegadinha.
         </h2>
       </hgroup>
       <a className={style.audience__a} href="//app.memoize.cards/auth/sign-in">

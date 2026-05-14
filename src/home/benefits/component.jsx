@@ -16,9 +16,9 @@ function component() {
         <FlexibleApplication />
       </div>
       <hgroup className={style.benefits__hgroup}>
-        <h1 className={style.benefits__h1}>Conhecimento que fica. De graça</h1>
+        <h1 className={style.benefits__h1}>Conhecimento que fica. De graça.</h1>
         <h2 className={style.benefits__h2}>
-          Sem assinatura Sem limite Sem pegadinha
+          Sem assinatura. Sem limite. Sem pegadinha.
         </h2>
       </hgroup>
       <a className={style.benefits__a} href="//app.memoize.cards/auth/sign-in">
