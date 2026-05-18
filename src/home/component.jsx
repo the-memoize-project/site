@@ -1,4 +1,11 @@
-import Master, { Canonical, Description, JsonLd, Title } from '@master'
+import Master, {
+  Canonical,
+  Description,
+  JsonLd,
+  OpenGraph,
+  Title,
+  TwitterCard,
+} from '@master'
 import App from './app'
 import Audience from './audience'
 import Benefits from './benefits'
@@ -13,6 +20,14 @@ import Workflow from './workflow'
 function component(home) {
   Title.change(home.title)
   Description.change(home.description)
+  TwitterCard.change({
+    title: home.title,
+    description: home.description,
+  })
+  OpenGraph.change({
+    title: home.title,
+    description: home.description,
+  })
   Canonical.change(home.canonical)
   JsonLd.push(schema)
 

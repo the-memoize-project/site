@@ -1,6 +1,10 @@
 {
   "@id": "#review",
   "@type": "Review",
+  "itemReviewed": {
+    "@id": "#webapplication",
+    "@type": "WebApplication"
+  },
   "author": {
     "@id": "#person",
     "@type": "Person",
