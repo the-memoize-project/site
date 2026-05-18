@@ -1,5 +1,7 @@
+import lang from '@lang'
 import { urlFor } from '@router'
 import Prefetch from '../prefetch'
+import t from './i18n'
 import style from './style'
 
 function component() {
@@ -9,8 +11,8 @@ function component() {
     <header className={style.header}>
       <a
         className={style.header__logo}
-        href={urlFor('home')}
-        aria-label="Memoize — Página inicial"
+        href={urlFor('home', { lang: lang.value })}
+        aria-label={t.logoLabel}
       >
         <svg
           width="363"
@@ -45,7 +47,7 @@ function component() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Entrar
+        {t.signIn}
       </a>
     </header>
   )

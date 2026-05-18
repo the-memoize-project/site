@@ -3,14 +3,24 @@ import component from './component'
 
 @paint(component)
 class Canonical {
-  static #path = '/'
+  static #path
+  static #base
 
-  get path() {
-    return Canonical.#path
+  get base() {
+    return Canonical.#base ?? 'https://memoize.cards'
   }
 
-  static change(value) {
-    Canonical.#path = value
+  get path() {
+    return Canonical.#path ?? '/'
+  }
+
+  static change(path) {
+    Canonical.#path = path
+    return Canonical
+  }
+
+  static handle(request) {
+    Canonical.#base = new URL(request.url).origin
     return Canonical
   }
 }

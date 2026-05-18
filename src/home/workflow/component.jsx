@@ -1,47 +1,31 @@
 import style from './style'
+import t from './i18n'
 
 function component() {
   return (
     <section className={style.workflow}>
       <hgroup className={style.workflow__hgroup}>
-        <h1 className={style.workflow__h1}>
-          Você responde.
-          <br />O algoritmo faz o resto
-        </h1>
+        <h1 className={style.workflow__h1}>{t.headline}</h1>
       </hgroup>
       <ul className={style.workflow__ul}>
         <li className={style.workflow__li}>
           <span className={style.workflow__span}>1</span>
-          <strong className={style.workflow__strong}>
-            Crie seus cards em segundos
-          </strong>
-          <p className={style.workflow__p}>
-            Digite, cole ou importe. Pergunta de um lado, resposta do outro.
-          </p>
+          <strong className={style.workflow__strong}>{t.createTitle}</strong>
+          <p className={style.workflow__p}>{t.createBody}</p>
         </li>
         <li className={style.workflow__li}>
           <span className={style.workflow__span}>2</span>
-          <strong className={style.workflow__strong}>
-            Estude quando o app chamar
-          </strong>
-          <p className={style.workflow__p}>
-            Aviso na hora exata. Nem antes — desperdício. Nem depois —
-            esquecimento.
-          </p>
+          <strong className={style.workflow__strong}>{t.studyTitle}</strong>
+          <p className={style.workflow__p}>{t.studyBody}</p>
         </li>
         <li className={style.workflow__li}>
           <span className={style.workflow__span}>3</span>
-          <strong className={style.workflow__strong}>
-            Deixe o algoritmo ajustar
-          </strong>
-          <p className={style.workflow__p}>
-            Acertou fácil? Volta daqui um mês. Travou? Volta amanhã. Você só
-            responde com sinceridade.
-          </p>
+          <strong className={style.workflow__strong}>{t.algorithmTitle}</strong>
+          <p className={style.workflow__p}>{t.algorithmBody}</p>
         </li>
       </ul>
       <a className={style.workflow__a} href="//app.memoize.cards/auth/sign-in">
-        Começar agora
+        {t.cta}
       </a>
     </section>
   )

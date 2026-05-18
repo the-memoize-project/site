@@ -1,8 +1,10 @@
+import lang from '@lang'
 import Canonical from './canonical'
 import Description from './description'
 import Font from './font'
 import Footer from './footer'
 import Header from './header'
+import HrefLang from './href-lang'
 import JsonLd from './json-ld'
 import OpenGraph from './open-graph'
 import Prefetch from './prefetch'
@@ -17,7 +19,7 @@ function component(_, children) {
   return (
     <>
       {'<!DOCTYPE html>'}
-      <html lang="pt-BR">
+      <html lang={lang.value}>
         <head>
           <meta charset="UTF-8" />
           <meta
@@ -43,6 +45,7 @@ function component(_, children) {
           <Font />
           <Prefetch />
           <Canonical />
+          <HrefLang />
           <OpenGraph />
           <TwitterCard />
           <Title />

@@ -4,6 +4,7 @@ import LastingRetention from './lastingRetention'
 import StudyEfficiency from './studyEfficiency'
 import style from './style'
 import TimeSaving from './timeSaving'
+import t from './i18n'
 
 function component() {
   return (
@@ -16,13 +17,11 @@ function component() {
         <FlexibleApplication />
       </div>
       <hgroup className={style.benefits__hgroup}>
-        <h1 className={style.benefits__h1}>Conhecimento que fica. De graça.</h1>
-        <h2 className={style.benefits__h2}>
-          Sem assinatura. Sem limite. Sem pegadinha.
-        </h2>
+        <h1 className={style.benefits__h1}>{t.headline}</h1>
+        <h2 className={style.benefits__h2}>{t.pitch}</h2>
       </hgroup>
       <a className={style.benefits__a} href="//app.memoize.cards/auth/sign-in">
-        Criar minha conta
+        {t.cta}
       </a>
     </section>
   )

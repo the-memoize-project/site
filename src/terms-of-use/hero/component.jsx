@@ -1,12 +1,11 @@
 import style from './style'
+import t from './i18n'
 
 function component() {
   return (
     <section className={style['terms-hero']}>
-      <h1 className={style['terms-hero__h1']}>Termos de Uso</h1>
-      <p className={style['terms-hero__p']}>
-        Ao criar uma conta na aplicação Memoize, você concorda com os seguintes termos.
-      </p>
+      <h1 className={style['terms-hero__h1']}>{t.headline}</h1>
+      <p className={style['terms-hero__p']}>{t.pitch}</p>
     </section>
   )
 }

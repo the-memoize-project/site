@@ -1,3 +1,4 @@
+import t from './i18n'
 import Image from './image'
 import style from './style'
 
@@ -7,19 +8,16 @@ function component() {
       <Image />
       <div className={style.hero__div}>
         <hgroup className={style.hero__hgroup}>
-          <strong className={style.hero__hat}>Aprenda 5x mais rápido</strong>
+          <strong className={style.hero__hat}>{t.tagline}</strong>
           <h1 className={style.hero__h1}>
-            Estude uma vez.
+            {t.headline}
             <br />
-            <strong>Lembre para sempre</strong>
+            <strong>{t.promise}</strong>
           </h1>
-          <h2 className={style.hero__h2}>
-            Você escolhe o que aprender. A gente garante que vai ficar. Grátis,
-            sem limite.
-          </h2>
+          <h2 className={style.hero__h2}>{t.pitch}</h2>
         </hgroup>
         <a className={style.hero__a} href="//app.memoize.cards/auth/sign-in">
-          Criar meu primeiro card
+          {t.cta}
         </a>
       </div>
     </section>

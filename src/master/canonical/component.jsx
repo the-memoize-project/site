@@ -1,5 +1,5 @@
 function component(props) {
-  return <link rel="canonical" href={`https://memoize.cards${props.path}`} />
+  return <link rel="canonical" href={`${props.base}${props.path}`} />
 }
 
 export default component

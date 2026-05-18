@@ -9,6 +9,8 @@
       "@component": ["./packages/component"],
       "@css": ["./packages/css"],
       "@env": ["./packages/env"],
+      "@i18n": ["./packages/i18n"],
+      "@lang": ["./packages/lang"],
       "@h": ["./packages/h"],
       "@h/jsx-runtime": ["./packages/h/jsx-runtime.js"],
       "@home": ["./src/home"],

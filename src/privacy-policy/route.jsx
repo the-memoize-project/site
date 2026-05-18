@@ -1,7 +1,10 @@
+import { Canonical, HREFLang } from '@master'
 import router from '@router'
-import PrivacyPolicy from './privacy-policy'
 import init from './init'
+import PrivacyPolicy from './privacy-policy'
 
-router.get('/politica-de-privacidade', async function privacyPolicy() {
+router.get('/:lang/privacy-policy', async function privacyPolicy() {
+  Canonical.change('/en/privacy-policy')
+  HREFLang.change('/privacy-policy')
   return new Response(await (<PrivacyPolicy />), init)
 })

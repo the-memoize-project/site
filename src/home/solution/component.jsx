@@ -1,5 +1,6 @@
 import Img from './img'
 import style from './style'
+import t from './i18n'
 
 function component() {
   return (
@@ -8,22 +9,17 @@ function component() {
       <div className={style.solution__div}>
         <hgroup className={style.solution__hgroup}>
           <h1 className={style.solution__h1}>
-            Por que você esquece.
+            {t.headline}
             <br />
-            <strong>E como parar</strong>
+            <strong>{t.promise}</strong>
           </h1>
-          <h2 className={style.solution__h2}>
-            Seu cérebro descarta o que considera pouco importante — não é falta
-            de esforço. O método tradicional briga contra isso: você relê tudo,
-            do zero, várias vezes. O Memoize inverte a lógica e devolve cada
-            card no momento exato em que sua memória precisa de reforço.
-          </h2>
+          <h2 className={style.solution__h2}>{t.pitch}</h2>
         </hgroup>
         <a
           className={style.solution__a}
           href="//app.memoize.cards/auth/sign-in"
         >
-          Começar agora
+          {t.cta}
         </a>
       </div>
     </section>
