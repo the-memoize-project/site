@@ -1,3 +1,4 @@
+export { default as GA } from './ga'
 export { default as Canonical } from './canonical'
 export { default } from './component'
 export { default as Description } from './description'
