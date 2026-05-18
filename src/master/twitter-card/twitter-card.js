@@ -1,17 +1,17 @@
 import paint from '@paint'
 import component from './component'
+import t from './i18n'
 
 @paint(component)
 class TwitterCard {
   static #data = {}
 
   get title() {
-    return (TwitterCard.#data.title ??= 'Memoize')
+    return (TwitterCard.#data.title ??= t.title)
   }
 
   get description() {
-    return (TwitterCard.#data.description ??=
-      'Usando a ciência da repetição espaçada, garantimos uma retenção eficaz do conhecimento, permitindo que você domine qualquer assunto com facilidade')
+    return (TwitterCard.#data.description ??= t.description)
   }
 
   get image() {

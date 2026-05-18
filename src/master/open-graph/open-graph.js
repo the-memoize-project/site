@@ -1,13 +1,13 @@
 import paint from '@paint'
 import component from './component'
+import t from './i18n'
 
 @paint(component)
 class OpenGraph {
   static #data = {}
 
   get description() {
-    return (OpenGraph.#data.description ??=
-      'Usando a ciência da repetição espaçada, garantimos uma retenção eficaz do conhecimento, permitindo que você domine qualquer assunto com facilidade')
+    return (OpenGraph.#data.description ??= t.description)
   }
 
   get image() {
@@ -15,7 +15,7 @@ class OpenGraph {
   }
 
   get title() {
-    return (OpenGraph.#data.title ??= 'Memoize')
+    return (OpenGraph.#data.title ??= t.title)
   }
 
   get type() {
