@@ -1,14 +1,15 @@
 import paint from '@paint'
 import component from './component'
+import t from './i18n'
 
 @paint(component)
 class TermsOfUse {
   get title() {
-    return 'Termos de uso | Memoize'
+    return t.title
   }
 
   get description() {
-    return 'Ao criar uma conta na aplicação Memoize, você concorda com os seguintes termos'
+    return t.description
   }
 
   get canonical() {

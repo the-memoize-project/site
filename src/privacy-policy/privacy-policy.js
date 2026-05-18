@@ -1,14 +1,15 @@
 import paint from '@paint'
 import component from './component'
+import t from './i18n'
 
 @paint(component)
 class PrivacyPolicy {
   get title() {
-    return 'Política de Privacidade | Memoize'
+    return t.title
   }
 
   get description() {
-    return 'Com a ciência da repetição espaçada, você obtém uma retenção de conhecimento superior. Domine qualquer assunto 2 a 5 vezes mais rápido que os métodos tradicionais'
+    return t.description
   }
 
   get canonical() {
