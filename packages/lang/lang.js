@@ -1,10 +1,10 @@
-import { params } from '@router'
 import BrowserLanguage from './browserLanguage'
 import GeoLanguage from './geoLanguage'
+import URLParams from './urlParams'
 
 class Lang {
   static get value() {
-    if (params.lang) return params.lang
+    if (URLParams.lang) return URLParams.lang
     if (BrowserLanguage.lang) return BrowserLanguage.lang
     if (GeoLanguage.lang) return GeoLanguage.lang
     return 'en'
