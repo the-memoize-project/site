@@ -32,7 +32,7 @@
       "name": "Serve pra qualquer tipo de conteúdo?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Qualquer coisa que envolva memorizar fatos, conceitos, vocabulário ou relações entre ideias. Idiomas, medicina, direito, programação, história, música — todos funcionam. Para habilidades motoras (tocar piano, dirigir), ela não substitui a prática, mas ajuda na parte teórica."
+        "text": "Qualquer coisa que envolva memorizar fatos, conceitos, vocabulário ou relações entre ideias. Idiomas, medicina, direito, programação, história, música — todos funcionam com flashcards. Para habilidades motoras (tocar piano, dirigir), ela não substitui a prática, mas ajuda na parte teórica."
       }
     },
     {
@@ -40,7 +40,7 @@
       "name": "Quanto tempo por dia preciso estudar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "10 a 15 minutos por dia bastam para a maioria das pessoas. O app distribui as revisões e cabe entre o café e o ônibus. Estudou mais num dia? Ótimo. Estudou menos? Os cards te esperam no dia seguinte."
+        "text": "10 a 15 minutos por dia bastam para a maioria das pessoas. O app distribui as revisões e cabe entre o café e o ônibus. Estudou mais num dia? Ótimo. Estudou menos? Os flashcards te esperam no dia seguinte."
       }
     },
     {
@@ -48,7 +48,7 @@
       "name": "Como começo do zero?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Crie uma conta gratuita, monte seu primeiro deck (ou importe um pronto) e estude 10 a 15 minutos por dia. O app cuida do resto: te avisa quando revisar, ajusta os intervalos e mostra seu progresso. Sem curva de aprendizado."
+        "text": "Crie uma conta gratuita, monte seu primeiro deck de flashcards (ou importe um pronto) e estude 10 a 15 minutos por dia. O app cuida do resto: te avisa quando revisar, ajusta os intervalos e mostra seu progresso. Sem curva de aprendizado."
       }
     },
     {
@@ -64,7 +64,7 @@
       "name": "É bom pra aprender idiomas?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "É um dos usos mais clássicos. Vocabulário, conjugações, expressões idiomáticas, gênero das palavras — tudo encaixa muito bem em cards. Combinado com prática de conversação, você acelera a fluência em meses, não anos."
+        "text": "É um dos usos mais clássicos. Vocabulário, conjugações, expressões idiomáticas, gênero das palavras — tudo encaixa muito bem em flashcards. Combinado com prática de conversação, você acelera a fluência em meses, não anos."
       }
     },
     {

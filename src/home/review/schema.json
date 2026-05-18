@@ -1,5 +1,5 @@
 {
-  "@id": "#reviw",
+  "@id": "#review",
   "@type": "Review",
   "author": {
     "@id": "#person",
