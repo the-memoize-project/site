@@ -13,7 +13,7 @@ class Home {
   }
 
   get canonical() {
-    return '/'
+    return '/en/'
   }
 }
 

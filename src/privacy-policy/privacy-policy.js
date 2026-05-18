@@ -13,7 +13,7 @@ class PrivacyPolicy {
   }
 
   get canonical() {
-    return '/politica-de-privacidade'
+    return '/en/privacy-policy'
   }
 }
 

@@ -13,7 +13,7 @@ class TermsOfUse {
   }
 
   get canonical() {
-    return '/termos-de-uso'
+    return '/en/terms-of-use'
   }
 }
 
