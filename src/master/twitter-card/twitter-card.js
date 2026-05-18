@@ -18,7 +18,7 @@ class TwitterCard {
     return (TwitterCard.#data.image ??= 'https://memoize.cards/memoize.svg')
   }
 
-  static assign(data) {
+  static change(data) {
     Object.assign(TwitterCard.#data, data)
     return TwitterCard
   }

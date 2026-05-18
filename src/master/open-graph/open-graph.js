@@ -26,7 +26,7 @@ class OpenGraph {
     return (OpenGraph.#data.url ??= 'https://memoize.cards')
   }
 
-  static assign(data) {
+  static change(data) {
     Object.assign(OpenGraph.#data, data)
     return OpenGraph
   }
