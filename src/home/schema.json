@@ -1,0 +1,14 @@
+{
+  "@id": "#webpage",
+  "@type": "WebPage",
+  "about": { "@id": "#organization" },
+  "description": "Learn 5x faster with the science of spaced repetition. Memoize reminds you of each piece of content at the exact moment — free, unlimited, on mobile or desktop.",
+  "inLanguage": "en",
+  "isPartOf": { "@id": "#website" },
+  "mentions": { "@id": "#webapplication" },
+  "name": "Learn 5x Faster! | Memoize",
+  "publisher": { "@id": "#organization" },
+  "relatedLink": ["https://memoize.cards"],
+  "significantLink": "https://memoize.cards",
+  "url": "https://memoize.cards"
+}

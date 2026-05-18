@@ -1,12 +1,12 @@
 import { JsonLd, Prefetch } from '@master'
 import Rating from './rating'
-import schema from './schema.js'
+import schema from './schema.json'
 import style from './style'
 import t from './i18n'
 
 function component() {
   Prefetch.push('/dijalma-santos-cavalcante-de-carvalho.jpg')
-  JsonLd.push(schema())
+  JsonLd.push(schema)
 
   return (
     <section className={style.review}>

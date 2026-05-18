@@ -1,0 +1,16 @@
+{
+  "@id": "#review",
+  "@type": "Review",
+  "author": {
+    "@id": "#person",
+    "@type": "Person",
+    "name": "Dijalma Santos Cavalcante de Carvalho"
+  },
+  "reviewBody": "As someone with ADHD and an extremely poor memory, this app has been essential in my life. It lets me study in a more dynamic and less stressful way. It also turns learning into something much cooler, like a game, where I can ask someone to quiz me and then I answer, among other possible activities. I am very grateful to have found this tool",
+  "reviewRating": {
+    "@id": "#rating",
+    "@type": "Rating",
+    "bestRating": 5,
+    "ratingValue": 4
+  }
+}

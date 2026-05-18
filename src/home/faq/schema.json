@@ -1,0 +1,79 @@
+{
+  "@id": "#faqpage",
+  "@type": "FAQPage",
+  "isPartOf": { "@id": "#website" },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is spaced repetition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a study technique backed by over a century of research: you review each piece of information at the exact interval when you are about to forget it. Each correct answer stretches that interval — from minutes to days, days to months, months to years. The result: long-term memory in a fraction of the time of traditional study."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does it work better than other methods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Re-reading and highlighting give a feeling of learning, but little real retention. Spaced repetition inverts the logic: you actively test yourself and the app only shows you what is about to slip away. Less passive, more efficient — and measurable within the app itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon will I see results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You feel a difference in the first week — information that would have vanished in two days starts to stick. After a month, the retention curve becomes visible in the app. After three months, it is hard to go back to the old method."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work for any type of content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anything involving memorizing facts, concepts, vocabulary, or relationships between ideas. Languages, medicine, law, programming, history, music — all work with flashcards. For motor skills (playing piano, driving), it does not replace practice, but it helps with the theoretical part."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much time do I need to study each day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "10 to 15 minutes a day is enough for most people. The app distributes reviews and fits between your coffee and the bus. Studied more one day? Great. Studied less? The flashcards will be waiting for you the next day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start from scratch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create a free account, build your first flashcard deck (or import a ready-made one), and study 10 to 15 minutes a day. The app handles the rest: it reminds you when to review, adjusts the intervals, and shows your progress. No learning curve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it work at any age?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The forgetting curve exists at any age — and so does the solution. Children, university students, mid-career professionals, and adults over 60 all benefit equally. Only the type of content changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it good for learning languages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is one of the most classic uses. Vocabulary, conjugations, idioms, word gender — everything fits very well into flashcards. Combined with conversation practice, you accelerate fluency in months, not years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it really free forever?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. No subscription, no card limit, no hidden paid version. Memoize is kept lean and free because learning should not have a toll."
+      }
+    }
+  ]
+}

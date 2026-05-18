@@ -6,7 +6,7 @@ import Faq from './faq'
 import Hero from './hero'
 import Highlight from './highlight'
 import Review from './review'
-import schema from './schema.js'
+import schema from './schema.json'
 import Solution from './solution'
 import Workflow from './workflow'
 
@@ -14,7 +14,7 @@ function component(home) {
   Title.change(home.title)
   Description.change(home.description)
   Canonical.change(home.canonical)
-  JsonLd.push(schema())
+  JsonLd.push(schema)
 
   return (
     <Master>
