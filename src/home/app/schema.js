@@ -20,7 +20,7 @@ export default () => ({
     highPrice: 0.0,
     lowPrice: 0.0,
     offerCount: '1',
-    priceCurrency: 'BRL',
+    priceCurrency: 'USD',
     offers: [
       {
         '@id': '#offer',
@@ -30,7 +30,7 @@ export default () => ({
           '@type': 'UnitPriceSpecification',
           name: 'Free',
           price: 0.0,
-          priceCurrency: 'BRL',
+          priceCurrency: 'USD',
           referenceQuantity: {
             '@id': '#quantitativevalue',
             '@type': 'QuantitativeValue',
