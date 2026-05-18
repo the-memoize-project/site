@@ -65,8 +65,8 @@ export default i18n({
   },
   contentTypesAnswer: {
     'pt-BR':
-      'Qualquer coisa que envolva memorizar fatos, conceitos, vocabulário ou relações entre ideias. Idiomas, medicina, direito, programação, história, música — todos funcionam. Para habilidades motoras (tocar piano, dirigir), ela não substitui a prática, mas ajuda na parte teórica.',
-    en: 'Anything involving memorizing facts, concepts, vocabulary, or relationships between ideas. Languages, medicine, law, programming, history, music — all work. For motor skills (playing piano, driving), it does not replace practice, but it helps with the theoretical part.',
+      'Qualquer coisa que envolva memorizar fatos, conceitos, vocabulário ou relações entre ideias. Idiomas, medicina, direito, programação, história, música — todos funcionam com flashcards. Para habilidades motoras (tocar piano, dirigir), ela não substitui a prática, mas ajuda na parte teórica.',
+    en: 'Anything involving memorizing facts, concepts, vocabulary, or relationships between ideas. Languages, medicine, law, programming, history, music — all work with flashcards. For motor skills (playing piano, driving), it does not replace practice, but it helps with the theoretical part.',
     es: 'Cualquier cosa que implique memorizar hechos, conceptos, vocabulario o relaciones entre ideas. Idiomas, medicina, derecho, programación, historia, música — todos funcionan. Para habilidades motoras (tocar piano, conducir), no sustituye la práctica, pero ayuda en la parte teórica.',
     'zh-CN':
       '任何涉及记忆事实、概念、词汇或想法之间关系的内容。语言、医学、法律、编程、历史、音乐——都适用。对于运动技能（弹钢琴、驾驶），它不能替代练习，但对理论部分有帮助。',
@@ -81,8 +81,8 @@ export default i18n({
   },
   dailyTimeAnswer: {
     'pt-BR':
-      '10 a 15 minutos por dia bastam para a maioria das pessoas. O app distribui as revisões e cabe entre o café e o ônibus. Estudou mais num dia? Ótimo. Estudou menos? Os cards te esperam no dia seguinte.',
-    en: '10 to 15 minutes a day is enough for most people. The app distributes reviews and fits between your coffee and the bus. Studied more one day? Great. Studied less? The cards will be waiting for you the next day.',
+      '10 a 15 minutos por dia bastam para a maioria das pessoas. O app distribui as revisões e cabe entre o café e o ônibus. Estudou mais num dia? Ótimo. Estudou menos? Os flashcards te esperam no dia seguinte.',
+    en: '10 to 15 minutes a day is enough for most people. The app distributes reviews and fits between your coffee and the bus. Studied more one day? Great. Studied less? The flashcards will be waiting for you the next day.',
     es: '10 a 15 minutos al día bastan para la mayoría de las personas. La app distribuye las revisiones y cabe entre el café y el autobús. ¿Estudiaste más un día? Genial. ¿Estudiaste menos? Las tarjetas te esperan al día siguiente.',
     'zh-CN':
       '对大多数人来说，每天10到15分钟就够了。应用会分配复习任务，可以在喝咖啡和坐公交之间完成。某天学得更多？很好。学得少了？卡片明天等你。',
@@ -97,8 +97,8 @@ export default i18n({
   },
   gettingStartedAnswer: {
     'pt-BR':
-      'Crie uma conta gratuita, monte seu primeiro deck (ou importe um pronto) e estude 10 a 15 minutos por dia. O app cuida do resto: te avisa quando revisar, ajusta os intervalos e mostra seu progresso. Sem curva de aprendizado.',
-    en: 'Create a free account, build your first deck (or import a ready-made one), and study 10 to 15 minutes a day. The app handles the rest: it reminds you when to review, adjusts the intervals, and shows your progress. No learning curve.',
+      'Crie uma conta gratuita, monte seu primeiro deck de flashcards (ou importe um pronto) e estude 10 a 15 minutos por dia. O app cuida do resto: te avisa quando revisar, ajusta os intervalos e mostra seu progresso. Sem curva de aprendizado.',
+    en: 'Create a free account, build your first flashcard deck (or import a ready-made one), and study 10 to 15 minutes a day. The app handles the rest: it reminds you when to review, adjusts the intervals, and shows your progress. No learning curve.',
     es: 'Crea una cuenta gratuita, arma tu primer deck (o importa uno listo) y estudia 10 a 15 minutos por día. La app se encarga del resto: te avisa cuándo revisar, ajusta los intervalos y muestra tu progreso. Sin curva de aprendizaje.',
     'zh-CN':
       '创建一个免费账号，建立你的第一个卡组（或导入现成的），每天学习10到15分钟。应用处理其余一切：提醒你何时复习、调整间隔并显示你的进度。无学习曲线。',
@@ -129,8 +129,8 @@ export default i18n({
   },
   languagesAnswer: {
     'pt-BR':
-      'É um dos usos mais clássicos. Vocabulário, conjugações, expressões idiomáticas, gênero das palavras — tudo encaixa muito bem em cards. Combinado com prática de conversação, você acelera a fluência em meses, não anos.',
-    en: 'It is one of the most classic uses. Vocabulary, conjugations, idioms, word gender — everything fits very well into cards. Combined with conversation practice, you accelerate fluency in months, not years.',
+      'É um dos usos mais clássicos. Vocabulário, conjugações, expressões idiomáticas, gênero das palavras — tudo encaixa muito bem em flashcards. Combinado com prática de conversação, você acelera a fluência em meses, não anos.',
+    en: 'It is one of the most classic uses. Vocabulary, conjugations, idioms, word gender — everything fits very well into flashcards. Combined with conversation practice, you accelerate fluency in months, not years.',
     es: 'Es uno de los usos más clásicos. Vocabulario, conjugaciones, expresiones idiomáticas, género de las palabras — todo encaja muy bien en tarjetas. Combinado con práctica de conversación, aceleras la fluidez en meses, no años.',
     'zh-CN':
       '这是最经典的用途之一。词汇、变位、习语、单词性别——一切都非常适合放入卡片。结合会话练习，你可以在几个月而不是几年内加速达到流利。',

@@ -9,11 +9,11 @@ export default i18n({
     ja: 'あなたが答える。アルゴリズムが残りをやる',
   },
   createTitle: {
-    'pt-BR': 'Crie seus cards em segundos',
-    en: 'Create your cards in seconds',
-    es: 'Crea tus tarjetas en segundos',
-    'zh-CN': '几秒内创建你的卡片',
-    ja: '数秒でカードを作る',
+    'pt-BR': 'Crie seus flashcards em segundos',
+    en: 'Create your flashcards in seconds',
+    es: 'Crea tus flashcards en segundos',
+    'zh-CN': '几秒内创建你的闪卡',
+    ja: '数秒でフラッシュカードを作る',
   },
   createBody: {
     'pt-BR': 'Digite, cole ou importe. Pergunta de um lado, resposta do outro.',

@@ -11,5 +11,5 @@ router.get('/', (request) => {
 router.get('/:lang/', async function home() {
   Canonical.change('/en/')
   HREFLang.change('/')
-  return new Response(await (<Home />), init)
+  return new Response(await (<Home />), init())
 })

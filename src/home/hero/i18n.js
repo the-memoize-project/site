@@ -30,10 +30,10 @@ export default i18n({
     ja: '学ぶ内容はあなたが選ぶ。定着はわたしたちが保証する。無料・無制限。',
   },
   cta: {
-    'pt-BR': 'Criar meu primeiro card',
-    en: 'Create my first card',
-    es: 'Crear mi primera tarjeta',
-    'zh-CN': '创建我的第一张卡片',
-    ja: '最初のカードを作る',
+    'pt-BR': 'Criar meu primeiro flashcard',
+    en: 'Create my first flashcard',
+    es: 'Crear mi primer flashcard',
+    'zh-CN': '创建我的第一张闪卡',
+    ja: '最初のフラッシュカードを作る',
   },
 })

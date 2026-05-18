@@ -13,7 +13,9 @@ function component() {
             <br />
             <strong>{t.promise}</strong>
           </h1>
-          <h2 className={style.solution__h2}>{t.pitch}</h2>
+          <h2 className={style.solution__h2}>
+            {t.pitchPre} <strong>{t.pitchKeyword}</strong> {t.pitchSuf}
+          </h2>
         </hgroup>
         <a
           className={style.solution__a}

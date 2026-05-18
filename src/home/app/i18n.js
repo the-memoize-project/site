@@ -2,11 +2,11 @@ import i18n from '@i18n'
 
 export default i18n({
   headline: {
-    'pt-BR': 'Celular ou computador. Mesmos cards',
-    en: 'Phone or computer. Same cards',
-    es: 'Celular o computadora. Las mismas tarjetas',
-    'zh-CN': '手机或电脑。同样的卡片',
-    ja: 'スマホもパソコンも。同じカード',
+    'pt-BR': 'Celular ou computador. Mesmos flashcards',
+    en: 'Phone or computer. Same flashcards',
+    es: 'Celular o computadora. Los mismos flashcards',
+    'zh-CN': '手机或电脑。同样的闪卡',
+    ja: 'スマホもパソコンも。同じフラッシュカード',
   },
   pitch: {
     'pt-BR': 'Funciona no navegador, no Android e no iOS. Sincroniza sozinho — sem App Store, sem cobrança.',
