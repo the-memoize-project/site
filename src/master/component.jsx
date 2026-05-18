@@ -2,6 +2,7 @@ import lang from '@lang'
 import Canonical from './canonical'
 import Description from './description'
 import Font from './font'
+import AdSense from './adSense'
 import GA from './ga'
 import Footer from './footer'
 import Header from './header'
@@ -43,6 +44,7 @@ function component(_, children) {
             href="//fonts.gstatic.com"
             crossorigin="anonymous"
           />
+          <AdSense />
           <GA />
           <Font />
           <Prefetch />
