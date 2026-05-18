@@ -1,11 +1,11 @@
 import { JsonLd } from '@master'
 import Image from './image'
-import schema from './schema.json'
+import schema from './schema.js'
 import style from './style'
 import t from './i18n'
 
 function component() {
-  JsonLd.push(schema)
+  JsonLd.push(schema())
 
   return (
     <section className={style.app}>
