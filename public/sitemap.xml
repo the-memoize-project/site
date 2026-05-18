@@ -1,12 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
   <url>
-    <loc>https://memoize.cards</loc>
+    <loc>https://memoize.cards/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://memoize.cards/termos-de-uso</loc>
+    <loc>https://memoize.cards/pt-BR/</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://memoize.cards/politica-de-privacidade</loc>
+    <loc>https://memoize.cards/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://memoize.cards/zh-CN/</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://memoize.cards/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/pt-BR/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/es/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/zh-CN/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/ja/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Use -->
+  <url>
+    <loc>https://memoize.cards/en/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/terms-of-use"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/pt-BR/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/terms-of-use"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/es/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/terms-of-use"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/zh-CN/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/terms-of-use"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://memoize.cards/ja/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://memoize.cards/en/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://memoize.cards/pt-BR/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://memoize.cards/es/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://memoize.cards/zh-CN/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://memoize.cards/ja/terms-of-use"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memoize.cards/en/terms-of-use"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
