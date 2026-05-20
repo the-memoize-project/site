@@ -1,10 +1,10 @@
 import lang from '@lang'
+import AdSense from './adSense'
 import Canonical from './canonical'
 import Description from './description'
 import Font from './font'
-import AdSense from './adSense'
-import GA from './ga'
 import Footer from './footer'
+import GA from './ga'
 import Header from './header'
 import HrefLang from './href-lang'
 import JsonLd from './json-ld'
@@ -24,16 +24,7 @@ function component(_, children) {
       <html lang={lang.value}>
         <head>
           <meta charset="UTF-8" />
-          <meta
-            name="theme-color"
-            content="#fafafa"
-            media="(prefers-color-scheme: light)"
-          />
-          <meta
-            name="theme-color"
-            content="#1f1f1f"
-            media="(prefers-color-scheme: dark)"
-          />
+          <meta name="theme-color" content="#fafafa" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" sizes="any" />
           <link rel="icon" href="/memoize.svg" type="image/svg+xml" />
