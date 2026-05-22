@@ -1,0 +1,13 @@
+{
+  "@id": "#flashcards-webpage",
+  "@type": "Article",
+  "about": { "@id": "#organization" },
+  "description": "Um cartão. Pergunta de um lado, resposta do outro. Combinado com repetição espaçada e active recall, é a técnica de estudo mais bem documentada da ciência cognitiva.",
+  "headline": "Flashcards: a forma mais simples e eficiente de não esquecer",
+  "inLanguage": "pt-BR",
+  "isPartOf": { "@id": "#website" },
+  "mentions": { "@id": "#webapplication" },
+  "name": "Flashcards: a forma mais simples e eficiente de não esquecer | Memoize",
+  "publisher": { "@id": "#organization" },
+  "url": "https://memoize.cards/pt-BR/flashcards"
+}

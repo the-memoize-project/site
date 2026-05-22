@@ -4,6 +4,7 @@ import Lang from '@lang'
 import { Canonical, HREFLang } from '@master'
 import router from '@router'
 
+import './flashcards'
 import './home'
 import './terms-of-use'
 import './privacy-policy'
