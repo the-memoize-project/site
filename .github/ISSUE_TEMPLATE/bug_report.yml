@@ -1,0 +1,83 @@
+name: Bug Report
+description: Encontrou algo quebrado? Reporte aqui.
+title: "fix: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar um bug! Preencha o formulário abaixo para nos ajudar a reproduzir e corrigir o problema.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição do bug
+      description: Uma descrição clara e concisa do que está acontecendo.
+      placeholder: "Ao acessar /pt/flashcards, a página retorna 500..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Liste os passos para chegar ao comportamento incorreto.
+      placeholder: |
+        1. Acesse '...'
+        2. Clique em '...'
+        3. Role até '...'
+        4. Veja o erro
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+      description: O que deveria acontecer?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamento atual
+      description: O que está acontecendo de fato?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / logs
+      description: Se aplicável, adicione screenshots ou logs de erro.
+
+  - type: input
+    id: url
+    attributes:
+      label: URL afetada
+      placeholder: "https://memoize.cards/pt/flashcards"
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Navegador
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Outro
+
+  - type: input
+    id: os
+    attributes:
+      label: Sistema Operacional
+      placeholder: "macOS 15, Ubuntu 24.04, Windows 11..."
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto adicional
+      description: Qualquer outra informação relevante.

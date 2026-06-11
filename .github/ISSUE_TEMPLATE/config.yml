@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suporte ao usuário
+    url: mailto:suporte@memoize.cards
+    about: Dúvidas sobre a plataforma Memoize? Entre em contato com o suporte.
+  - name: Discussões
+    url: https://github.com/memoize-cards/site/discussions
+    about: Ideias gerais, perguntas abertas e conversas sobre o projeto.

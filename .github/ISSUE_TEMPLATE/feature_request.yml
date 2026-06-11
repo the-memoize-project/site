@@ -1,0 +1,38 @@
+name: Feature Request
+description: Tem uma ideia para melhorar o Memoize Site?
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Adoramos novas ideias! Descreva bem o problema que você quer resolver — isso nos ajuda a entender a necessidade real antes de pensar na solução.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual problema isso resolve?
+      description: Descreva a dor ou limitação atual. Ex.: "É frustrante quando..."
+      placeholder: "Atualmente não consigo encontrar facilmente os tipos de flashcards disponíveis porque..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solução sugerida
+      description: Como você imagina que isso deveria funcionar?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Outras abordagens que você já pensou e por que as descartou.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto adicional
+      description: Mockups, links, referências ou qualquer outra informação relevante.
